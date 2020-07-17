@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: wlto/test-netlify-cms
+  branch: landing-page-content
+local_backend: true
+media_folder: static/assets
+public_folder: /assets
+collections:
+  - name: Landing Page
+    label: LandingPage
+    folder: lp-contents
+    create: true
+    fields:
+      - { name: heroHeading,      label: HeroHeading      }
+      - { name: heroBody,         label: HeroBody         }
+      - { name: ourStoryHeading,  label: OurStoryHeading  }
+      - { name: ourStoryBody,     label: OurStoryBody     }
+  - name: Blog Posts
+    label: BlogPosts
+    folder: blog-contents
+    create: true
+    fields:
+      - { name: title,      label: Title      }
