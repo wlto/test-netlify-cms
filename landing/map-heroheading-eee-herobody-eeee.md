@@ -1,4 +1,0 @@
----
-heroHeading: eee
-heroBody: eeee
----
